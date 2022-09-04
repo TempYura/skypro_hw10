@@ -64,14 +64,17 @@ if __name__ == '__main__':
     print(f"{decor} get all test")
     print(get_all(candidates))
 
-    print(f"{decor} get by pk test")
+    print(f"{decor} get by pk 2 test")
     print(get_by_pk(candidates, 2))
 
-    print(f"{decor} get by pk test")
-    print(get_by_pk(candidates, 33))
+    print(f"{decor} get by pk 333 test")
+    print(get_by_pk(candidates, 333))
 
-    print(f"{decor} get by skill test")
+    print(f"{decor} get by pk 'abc' test")
+    print(get_by_pk(candidates, "abc"))
+
+    print(f"{decor} get by skill 'pythoN' test")
     print(get_by_skill(candidates, 'pythoN'))
 
-    print(f"{decor} get by skill test")
+    print(f"{decor} get by skill 'asdf' test")
     print(get_by_skill(candidates, 'asdf'))
